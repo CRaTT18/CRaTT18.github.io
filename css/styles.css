@@ -7,9 +7,9 @@ body {
     color: white;
 }
 
-.container, .col {
+*/.container, .col {
     border: 5px solid pink;
-}
+}*/
 
 footer {
     background-image: linear-gradient(to bottom right, rgb(6, 2, 252), rgb(7, 240, 240));
