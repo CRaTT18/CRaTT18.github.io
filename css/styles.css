@@ -2,16 +2,19 @@ body {
     font-family: "monospace", sans-serif;
 }
 
-.jumbotron {
+.jumbotron, .site-footer {
     background-image: linear-gradient(to bottom right, rgb(6, 2, 252), rgb(7, 240, 240));
     color: white;
 }
 
-*/.container, .col {
+.fa-github, .fa-linkedin {
+    color: rgba(0, 0, 0, 0.63);
+}
+
+/*.container, .col {
     border: 5px solid pink;
-}*/
-
-footer {
-    background-image: linear-gradient(to bottom right, rgb(6, 2, 252), rgb(7, 240, 240));
-    color: white;
 }
+
+div {
+    border: solid 1px black;
+}*/
