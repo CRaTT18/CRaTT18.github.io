@@ -1,14 +1,25 @@
 body {
-    font-family: "monospace", sans-serif;
+    font-family: 'Audiowide', cursive;
 }
 
 .jumbotron, .site-footer {
     background-image: linear-gradient(to bottom right, rgb(6, 2, 252), rgb(7, 240, 240));
     color: white;
+    font-family: 'Audiowide', cursive;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
 }
 
 .fa-github, .fa-linkedin {
-    color: rgba(0, 0, 0, 0.63);
+    color: white;
+}
+
+.carousel-caption {
+    background-color: rgba(29, 28, 28, 0.5);
+    border-radius: 10px;
+    padding: 5px;
 }
 
 /*.container, .col {
