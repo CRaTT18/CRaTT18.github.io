@@ -3,7 +3,7 @@ body {
 }
 
 .jumbotron, .site-footer {
-    background-image: linear-gradient(to bottom right, rgb(6, 2, 252), rgb(7, 240, 240));
+    background-image: linear-gradient(to bottom right, rgb(20, 41, 233), rgb(7, 240, 240));
     color: white;
     font-family: 'Audiowide', cursive;
 }
@@ -12,14 +12,18 @@ p {
     font-family: 'roboto', sans-serif;
 }
 
-.fa-github, .fa-linkedin {
+.fa-github, .fa-linkedin, .fa-car-crash {
     color: white;
 }
 
-.carousel-caption {
-    background-color: rgba(29, 28, 28, 0.5);
-    border-radius: 10px;
-    padding: 5px;
+.fa-github:hover, .fa-linkedin:hover, .fa-car-crash:hover {
+    transform: scale(1.1);
+}
+
+#project-card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 10px 18px #160101;
+
 }
 
 /*.container, .col {
