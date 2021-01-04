@@ -1,5 +1,6 @@
 body {
     font-family: 'Audiowide', cursive;
+    color: rgb(73, 68, 68);
 }
 
 .jumbotron, .site-footer {
@@ -29,6 +30,10 @@ p {
 #resume-card:hover {
     transform: rotate(.5deg);
     box-shadow: 5px 10px 18px #160101;
+}
+
+#card-quote {
+    background-color: rgb(92,199,255);
 }
 
 /*.container, .col {
