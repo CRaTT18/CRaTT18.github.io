@@ -3,7 +3,7 @@ body {
 }
 
 .jumbotron, .site-footer {
-    background-image: linear-gradient(to bottom right, rgb(20, 41, 233), rgb(7, 240, 240));
+    background-image: linear-gradient(to bottom right, rgb(20, 41, 233), rgba(92, 199, 255));
     color: white;
     font-family: 'Audiowide', cursive;
 }
