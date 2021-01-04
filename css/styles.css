@@ -33,6 +33,10 @@ p {
     box-shadow: 5px 10px 18px #160101;
 }
 
+#resume-card {
+    border-radius: 15px;
+}
+
 #jumbotron-face:hover {
     transition: 3s;
     transform: rotate(720deg);
