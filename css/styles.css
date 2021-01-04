@@ -28,7 +28,7 @@ p {
     box-shadow: 5px 10px 18px #160101;
 }
 
-#resume-card:hover {
+#resume-card-top:hover {
     transform: rotate(.5deg);
     box-shadow: 5px 10px 18px #160101;
 }
