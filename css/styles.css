@@ -33,8 +33,13 @@ p {
     box-shadow: 5px 10px 18px #160101;
 }
 
+#resume-card-top {
+    border-radius: 15px;
+}
+
 #resume-card {
     border-radius: 15px;
+    box-shadow: 5px 10px 18px #160101;
 }
 
 #jumbotron-face:hover {
