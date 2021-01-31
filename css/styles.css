@@ -1,54 +1,63 @@
 body {
-    font-family: 'Audiowide', cursive;
-    color: rgb(73, 68, 68);
+  font-family: "Audiowide", cursive;
+  color: rgb(73, 68, 68);
 }
 
-.jumbotron, .site-footer {
-    background-image: linear-gradient(to bottom right, rgb(20, 41, 233), rgba(92, 199, 255));
-    color: white;
-    font-family: 'Audiowide', cursive;
+.jumbotron,
+.site-footer {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(20, 41, 233),
+    rgba(92, 199, 255)
+  );
+  color: white;
+  font-family: "Audiowide", cursive;
 }
 
 p {
-    font-family: 'roboto', sans-serif;
-    font-size: 18px;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
 }
 
-.fa-github, .fa-linkedin, .fa-car-crash {
-    color: white;
+.fa-github,
+.fa-linkedin,
+.fa-car-crash {
+  color: white;
 }
 
-.fa-github:hover, .fa-linkedin:hover, .fa-car-crash:hover {
-    transform: scale(1.1);
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-car-crash:hover {
+  transform: scale(1.1);
 }
 
 #project-card:hover {
-    transition: .5s;
-    transform: scale(1.1);
-    box-shadow: 5px 10px 18px #160101;
+  transition: 0.5s;
+  transform: scale(1.1);
+  box-shadow: 5px 10px 18px #160101;
 }
 
 #resume-card-top:hover {
-    transform: rotate(.5deg);
-    box-shadow: 5px 10px 18px #160101;
+  transform: rotate(0.5deg);
+  box-shadow: 5px 10px 18px #160101;
 }
 
 #resume-card-top {
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 #resume-card {
-    border-radius: 15px;
-    box-shadow: 5px 10px 18px #160101;
+  border-radius: 15px;
+  box-shadow: 5px 10px 18px #160101;
 }
 
 #jumbotron-face:hover {
-    transition: 3s;
-    transform: rotate(720deg);
+  transition: 3s;
+  transform: rotate(720deg);
 }
 
 #card-quote {
-    background-color: rgb(92,199,255);
+  background-color: rgb(92, 199, 255);
 }
 
 /*.container, .col {
