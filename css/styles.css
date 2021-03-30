@@ -60,6 +60,13 @@ p {
   background-color: rgb(92, 199, 255);
 }
 
+#crash-app-image {
+  box-shadow: 5px 10px 18px #160101;
+  margin-bottom: 35px;
+  max-width: 100%;
+  height: auto;
+}
+
 /*.container, .col {
     border: 5px solid pink;
 }
